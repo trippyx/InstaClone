@@ -16,6 +16,7 @@
 		0CFC20632B383347003C9359 /* UserStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20622B383347003C9359 /* UserStateView.swift */; };
 		0CFC20652B383B11003C9359 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20642B383B11003C9359 /* FeedView.swift */; };
 		0CFC20672B383B20003C9359 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20662B383B20003C9359 /* FeedCell.swift */; };
+		0CFC20692B384D0A003C9359 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20682B384D0A003C9359 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0CFC20622B383347003C9359 /* UserStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateView.swift; sourceTree = "<group>"; };
 		0CFC20642B383B11003C9359 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		0CFC20662B383B20003C9359 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		0CFC20682B384D0A003C9359 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		0C03DA072B35FADA00EE8408 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				0CFC20682B384D0A003C9359 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				0CFC20602B381DBD003C9359 /* ProfileView.swift in Sources */,
 				0C0E82E82B1CBB40006985C2 /* ContentView.swift in Sources */,
 				0CFC20632B383347003C9359 /* UserStateView.swift in Sources */,
+				0CFC20692B384D0A003C9359 /* SearchView.swift in Sources */,
 				0C0E82E62B1CBB40006985C2 /* InstaCloneApp.swift in Sources */,
 				0CFC20652B383B11003C9359 /* FeedView.swift in Sources */,
 				0CFC205E2B380895003C9359 /* MainTabView.swift in Sources */,
