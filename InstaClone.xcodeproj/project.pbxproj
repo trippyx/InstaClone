@@ -11,6 +11,7 @@
 		0C0E82E82B1CBB40006985C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E82E72B1CBB40006985C2 /* ContentView.swift */; };
 		0C0E82EA2B1CBB41006985C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E82E92B1CBB41006985C2 /* Assets.xcassets */; };
 		0C0E82ED2B1CBB41006985C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E82EC2B1CBB41006985C2 /* Preview Assets.xcassets */; };
+		0C78C6D02B387CA700AF35E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78C6CF2B387CA700AF35E5 /* LoginView.swift */; };
 		0CFC205E2B380895003C9359 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC205D2B380895003C9359 /* MainTabView.swift */; };
 		0CFC20602B381DBD003C9359 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC205F2B381DBD003C9359 /* ProfileView.swift */; };
 		0CFC20632B383347003C9359 /* UserStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20622B383347003C9359 /* UserStateView.swift */; };
@@ -25,6 +26,7 @@
 		0C0E82E72B1CBB40006985C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C0E82E92B1CBB41006985C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0E82EC2B1CBB41006985C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C78C6CF2B387CA700AF35E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0CFC205D2B380895003C9359 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		0CFC205F2B381DBD003C9359 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0CFC20622B383347003C9359 /* UserStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateView.swift; sourceTree = "<group>"; };
@@ -68,8 +70,8 @@
 		0C03DA012B35FA5600EE8408 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				0CFC20612B383330003C9359 /* Componets */,
 				0C03DA032B35FAC800EE8408 /* Authentication */,
+				0CFC20612B383330003C9359 /* Componets */,
 				0C03DA042B35FAD200EE8408 /* Feed */,
 				0C03DA052B35FAD500EE8408 /* Profile */,
 				0C03DA062B35FAD700EE8408 /* Root */,
@@ -91,6 +93,7 @@
 		0C03DA032B35FAC800EE8408 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				0C78C6CF2B387CA700AF35E5 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0CFC20672B383B20003C9359 /* FeedCell.swift in Sources */,
 				0CFC20602B381DBD003C9359 /* ProfileView.swift in Sources */,
 				0C0E82E82B1CBB40006985C2 /* ContentView.swift in Sources */,
+				0C78C6D02B387CA700AF35E5 /* LoginView.swift in Sources */,
 				0CFC20632B383347003C9359 /* UserStateView.swift in Sources */,
 				0CFC20692B384D0A003C9359 /* SearchView.swift in Sources */,
 				0C0E82E62B1CBB40006985C2 /* InstaCloneApp.swift in Sources */,
