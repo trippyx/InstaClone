@@ -12,6 +12,11 @@
 		0C0E82EA2B1CBB41006985C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E82E92B1CBB41006985C2 /* Assets.xcassets */; };
 		0C0E82ED2B1CBB41006985C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E82EC2B1CBB41006985C2 /* Preview Assets.xcassets */; };
 		0C78C6D02B387CA700AF35E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C78C6CF2B387CA700AF35E5 /* LoginView.swift */; };
+		0CF127DA2B39CD2C00C8B330 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF127D92B39CD2C00C8B330 /* AddEmailView.swift */; };
+		0CF127DC2B39DBF400C8B330 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF127DB2B39DBF300C8B330 /* TextFieldModifier.swift */; };
+		0CF127DE2B39DD7500C8B330 /* CreateUserNamaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF127DD2B39DD7500C8B330 /* CreateUserNamaView.swift */; };
+		0CF127E02B39E42F00C8B330 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF127DF2B39E42F00C8B330 /* CreatePasswordView.swift */; };
+		0CF127E22B39E67F00C8B330 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF127E12B39E67F00C8B330 /* CompleteSignUpView.swift */; };
 		0CFC205E2B380895003C9359 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC205D2B380895003C9359 /* MainTabView.swift */; };
 		0CFC20602B381DBD003C9359 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC205F2B381DBD003C9359 /* ProfileView.swift */; };
 		0CFC20632B383347003C9359 /* UserStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFC20622B383347003C9359 /* UserStateView.swift */; };
@@ -27,6 +32,11 @@
 		0C0E82E92B1CBB41006985C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0E82EC2B1CBB41006985C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C78C6CF2B387CA700AF35E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0CF127D92B39CD2C00C8B330 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		0CF127DB2B39DBF300C8B330 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		0CF127DD2B39DD7500C8B330 /* CreateUserNamaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNamaView.swift; sourceTree = "<group>"; };
+		0CF127DF2B39E42F00C8B330 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		0CF127E12B39E67F00C8B330 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		0CFC205D2B380895003C9359 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		0CFC205F2B381DBD003C9359 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0CFC20622B383347003C9359 /* UserStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateView.swift; sourceTree = "<group>"; };
@@ -94,6 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				0C78C6CF2B387CA700AF35E5 /* LoginView.swift */,
+				0CF127D92B39CD2C00C8B330 /* AddEmailView.swift */,
+				0CF127DD2B39DD7500C8B330 /* CreateUserNamaView.swift */,
+				0CF127DF2B39E42F00C8B330 /* CreatePasswordView.swift */,
+				0CF127E12B39E67F00C8B330 /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -188,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				0CFC20622B383347003C9359 /* UserStateView.swift */,
+				0CF127DB2B39DBF300C8B330 /* TextFieldModifier.swift */,
 			);
 			path = Componets;
 			sourceTree = "<group>";
@@ -264,13 +279,18 @@
 			files = (
 				0CFC20672B383B20003C9359 /* FeedCell.swift in Sources */,
 				0CFC20602B381DBD003C9359 /* ProfileView.swift in Sources */,
+				0CF127DE2B39DD7500C8B330 /* CreateUserNamaView.swift in Sources */,
 				0C0E82E82B1CBB40006985C2 /* ContentView.swift in Sources */,
 				0C78C6D02B387CA700AF35E5 /* LoginView.swift in Sources */,
 				0CFC20632B383347003C9359 /* UserStateView.swift in Sources */,
+				0CF127DA2B39CD2C00C8B330 /* AddEmailView.swift in Sources */,
+				0CF127E22B39E67F00C8B330 /* CompleteSignUpView.swift in Sources */,
 				0CFC20692B384D0A003C9359 /* SearchView.swift in Sources */,
 				0C0E82E62B1CBB40006985C2 /* InstaCloneApp.swift in Sources */,
 				0CFC20652B383B11003C9359 /* FeedView.swift in Sources */,
+				0CF127DC2B39DBF400C8B330 /* TextFieldModifier.swift in Sources */,
 				0CFC205E2B380895003C9359 /* MainTabView.swift in Sources */,
+				0CF127E02B39E42F00C8B330 /* CreatePasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
