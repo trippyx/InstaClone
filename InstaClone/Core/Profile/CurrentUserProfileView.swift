@@ -1,13 +1,13 @@
 //
-//  ProfileView.swift
+//  CurrentUserProfileView.swift
 //  InstaClone
 //
-//  Created by Kuldeep Singh on 24/12/23.
+//  Created by Kuldeep Singh on 25/12/23.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
+struct CurrentUserProfileView: View {
     private let gridItems:[GridItem] = [
     
         .init(.flexible(),spacing: 1),
@@ -15,14 +15,14 @@ struct ProfileView: View {
         .init(.flexible(),spacing: 1),
     
     ]
-    let user:User
     var body: some View {
+        NavigationStack {
             ScrollView{
                 VStack(content: {
                     VStack(spacing:10,content: {
                         
                         HStack(content: {
-                            Image(user.profileImageUrl ?? "")
+                            Image(systemName:"person.fill")
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 80, height: 80)
@@ -40,10 +40,10 @@ struct ProfileView: View {
                         
                         
                         VStack(alignment:.leading,spacing:4,content: {
-                            Text(user.fullName ?? "")
+                            Text("Chadwick Bozeman")
                                 .font(.footnote)
                                 .fontWeight(.semibold)
-                            Text(user.userName)
+                            Text("Wakand Forever")
                                 .font(.footnote)
                         })
                         .frame(maxWidth: .infinity,alignment: .leading)
@@ -77,9 +77,20 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar(content: {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button(action: {
+                        
+                    }, label: {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundStyle(.black)
+                    })
+                }
+            })
+        }
     }
 }
 
 #Preview {
-    ProfileView(user: User.mockUsers.first!)
+    CurrentUserProfileView()
 }

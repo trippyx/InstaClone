@@ -30,7 +30,7 @@ struct LoginView: View {
                         .modifier(TextFieldModifier())
                     
                 })
-                
+                 
                 Button(action: {}, label: {
                     Text("Forgot Password ?")
                         .font(.footnote)
