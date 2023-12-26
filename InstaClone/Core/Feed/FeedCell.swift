@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct FeedCell: View {
+    let post:Post
     var body: some View {
         VStack(content: {
             HStack(content: {
-                Image("batman")
+                Image(post.user?.profileImageUrl ?? "")
                     .resizable()
                     .scaledToFill()
                     .frame(width: 40, height: 40)
                     .clipShape(Circle())
                 
-                Text("Batman")
+                Text(post.user?.userName ?? "")
                     .font(.footnote)
                     .fontWeight(.semibold)
                 Spacer()
@@ -25,7 +26,7 @@ struct FeedCell: View {
             .padding(.leading)
             
             
-            Image("batman")
+            Image(post.imageUrl)
                 .resizable()
                 .scaledToFill()
                 .frame(height: 400)
@@ -60,7 +61,7 @@ struct FeedCell: View {
             .padding(.top,4)
             .foregroundStyle(.black)
             
-            Text("23 Likes")
+            Text("\(post.likes) Likes")
                 .font(.footnote)
                 .fontWeight(.semibold)
                 .frame(maxWidth: .infinity,alignment: .leading)
@@ -68,11 +69,11 @@ struct FeedCell: View {
                 .padding(.top,1)
             
             HStack(content: {
-                Text("Batman ")
+                Text(post.user?.userName ?? "")
                     .fontWeight(.semibold)
                 +
                 
-                Text("This is some test caption for now this is some caption now")
+                Text(post.caption)
             })
             .frame(maxWidth: .infinity,alignment: .leading)
             .font(.footnote)
@@ -94,5 +95,5 @@ struct FeedCell: View {
 }
 
 #Preview {
-    FeedCell()
+    FeedCell(post: Post.MOCK_POSTS[0])
 }
